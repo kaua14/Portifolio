@@ -1,0 +1,19 @@
+h1 {
+  font-size: 34px; 
+  color: #333; 
+  text-align: center; 
+  margin-top: 20px; 
+  padding: 10px; 
+  background-color: cyan; 
+  border: 1px solid #ccc; 
+  border-radius: 5px; 
+  
+}
+p {
+  font-size: 24px; 
+  color: #333; 
+  text-align: left; 
+  margin-top: 20px; 
+  padding: 10px; 
+  border-radius: 5px; 
+}
