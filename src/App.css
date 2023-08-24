@@ -1,12 +1,10 @@
 h1 {
   font-size: 34px; 
   color: #333; 
-  text-align: center; 
+  text-align: left; 
   margin-top: 20px; 
-  padding: 10px; 
-  background-color: cyan; 
-  border: 1px solid #ccc; 
-  border-radius: 5px; 
+  margin-bottom:20px;
+  padding: 5px; 
   
 }
 p {
@@ -17,3 +15,25 @@ p {
   padding: 10px; 
   border-radius: 5px; 
 }
+/* Apply styles to the header element */
+.header {
+  background-color: #333; /* Background color for the header */
+  color: #fff; /* Text color */
+  padding: 20px; /* Add some padding to the header */
+  text-align: center; /* Center-align the header content */
+  font-size: 24px; /* Font size for the header text */
+  font-weight: bold; /* Make the text bold */
+}
+
+/* Style links in the header */
+a {
+  color: #fff; /* Link text color */
+  text-decoration: none; /* Remove underlines from links */
+  margin: 0 10px; /* Add margin to space out the links */
+}
+
+/* Style header links on hover */
+a:hover {
+  text-decoration: underline; /* Underline links on hover */
+}
+
