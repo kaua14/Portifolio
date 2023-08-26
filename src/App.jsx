@@ -4,6 +4,7 @@ import Home from './Components/Home.jsx';
 import About from './Components/AboutMe.jsx';
 import Language from './Components/Languages.jsx';
 import Header from './Components/Header.jsx';
+import Footer from './Components/Footer.jsx';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
            <Route path="/language" element={<Language />} />
         </Routes>
       </BrowserRouter>
+      <Footer />
     </div>
   );
 }
