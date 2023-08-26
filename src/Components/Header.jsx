@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from 'react-router-dom';
 import '../App.css'
 
 function Header(){
@@ -7,7 +6,7 @@ function Header(){
     
     <div className="header">
       <a href='/'>Home</a>
-      <a href='/about'>About</a>
+      <a href='/about'>About Me</a>
       <a href= '/language'>Languages</a>
     </div>
     
